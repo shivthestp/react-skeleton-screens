@@ -1,6 +1,5 @@
-import Articles from './components/Articles';
-import Users from './components/Users';
-
+import Articles from "./components/Articles";
+import User from "./components/User";
 
 function App() {
   return (
@@ -8,13 +7,11 @@ function App() {
       <header className="header">
         <h1>React Skeletons</h1>
       </header>
-      <div className='content'>
+      <div className="content">
         <Articles />
-        <Users />
-      
+        <User />
+      </div>
     </div>
-    </div>
-    
   );
 }
 
