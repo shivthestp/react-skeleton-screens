@@ -4,6 +4,7 @@
   background: #ddd;
   margin: 10px 0;
   border-radius: 4px;
+  width: 100%;
 }
 .skeleton.text {
   width: 100%;
@@ -15,8 +16,8 @@
   margin-bottom: 15px;
 }
 .skeleton.avatar {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 .skeleton.thumbnail {
@@ -35,4 +36,15 @@
   grid-template-columns: 1fr 2fr;
   gap: 20px;
   align-items: center;
+}
+
+/* themes */
+.skeleton-wrapper.light{
+  background: #f2f2f2;
+}
+.skeleton-wrapper.dark{
+  background: #444;
+}
+.skeleton-wrapper.dark .skeleton{
+  background: #777;
 }
