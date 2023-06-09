@@ -22,7 +22,7 @@ const User = () => {
           <a href={profile.website}> {profile.website}</a>
         </div>
       )}
-      {!profile && <SkeletonProfile theme='dark'/>}
+      {!profile && <SkeletonProfile />}
     </div>
   );
 };
